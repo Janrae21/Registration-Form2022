@@ -17,8 +17,7 @@ let username = id("firstname"),
 // Adding the submit event Listener
 
 form.addEventListener("submit", (e) => {
-    e.preventDefault();
-
+    // e.preventDefault();
     engine(firstname, 0, "First name cannot be blank");
     engine(lastname, 1,"Last name cannot be blank")
     engine(email, 3, "Email cannot be blank");

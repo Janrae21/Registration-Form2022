@@ -4,13 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Tutorial - https://youtu.be/VufN46OyFng */
-
-/**
-* ! changing default styles of brower
-**/
-
-
 body {
     font-family: sans-serif;
 }
@@ -20,9 +13,7 @@ body {
     flex-direction: row;
 }
 
-/**
-  * ! style rules for content section
-  **/
+
 
 .content {
     display: flex;
@@ -36,13 +27,11 @@ body {
     padding: 10px 20px;
 }
 
-
 form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 45%;
-    /* max-width: 400px; */
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 50px;
 }
@@ -77,9 +66,6 @@ input:focus {
     border: 2px solid #f2796e;
 }
 
-/**
-  * ! style rules for social section
-  **/
 
 .btn {
     display: flex;
@@ -121,9 +107,7 @@ span {
     cursor: pointer;
 }
 
-/**
-  * ! style rules for form icons
-  **/
+
 
 form div i {
     position: absolute;
@@ -150,9 +134,7 @@ form div i {
     margin-top: 5px;
 }
 
-/**
-  * ! style rules for button 
-  **/
+
 button a {
     text-decoration: none;
 }
@@ -174,9 +156,6 @@ button:hover {
     opacity: 0.8;
 }
 
-/**
-  * ! Media Queries are here
-  **/
 
 @media (max-width: 900px) {
     .container {
