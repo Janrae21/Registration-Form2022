@@ -13,7 +13,7 @@
     <div class="container">
         <div class="content">
         </div>
-        <form id="form" action="welcome.php" method="POST">
+        <form id="form" action="welcome.php" method="get">
             <div class="social">
                 <div class="title">Get Started</div>
                 <div class="question">
@@ -83,7 +83,7 @@
             <div>
                 <label for="password"> Confirm Password</label>
                 <i class="fas fa-lock"></i>
-                <input type="password" name="Confirm Pasword" id="Confirm Password" placeholder=" Confirm Password " />
+                <input type="password" name="Confirm.Pasword" id="Confirm Password" placeholder=" Confirm Password " />
                 <i class="fas fa-exclamation-circle failure-icon"></i>
                 <i class="far fa-check-circle success-icon"></i>
                 <div class="error"></div>
