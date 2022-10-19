@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-color: rgb(52, 143, 235);
+}
+
+.container .container-content {
+    background-color: black;
+    width: 48vw;
+    height: 50vh;
+
+}
+
+
+
+.container-content h4 {
+    grid-column: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffff;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+} */
+
+/* #myVideo {
+    margin-left: 42rem;
+    width: 48vw;
+    height: 50vh;
+
+}
+
+.video {
+    margin: auto;
+    position: auto;
+} */
+
+body {
+    margin: 0;
+    background: #000;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s;
+
+}
+
+
+#welcome {
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    background: rgba(12, 124, 199, 0.3);
+    color: white;
+    padding: 2rem;
+    width: 33%;
+    margin: 2rem;
+    float: right;
+    font-size: 1.2rem;
+    opacity: 5;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: cursive;
+    margin-top: 0;
+    letter-spacing: .3rem;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    div {
+        width: 70%;
+    }
+}
+
+@media screen and (max-device-width: 800px) {
+
+    #bgvid {
+        display: none;
+    }
+}

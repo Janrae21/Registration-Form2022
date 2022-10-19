@@ -6,11 +6,13 @@
 
 body {
     font-family: sans-serif;
+    
 }
 
 .container {
     display: flex;
     flex-direction: row;
+    
 }
 
 
@@ -19,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-image: url(https://preview.redd.it/nqhn7veejsb51.png?width=1298&format=png&auto=webp&s=3147fe26bc8bac4407b2e0c82dbcc9e3243c8a07);
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/eb274e63-199b-4293-8bb3-6437f133e9b6/de48lp4-1065f6c1-8054-4954-9748-9819b7c5f0d2.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ViMjc0ZTYzLTE5OWItNDI5My04YmIzLTY0MzdmMTMzZTliNlwvZGU0OGxwNC0xMDY1ZjZjMS04MDU0LTQ5NTQtOTc0OC05ODE5YjdjNWYwZDIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ZbHwYQE5kStQg0pmXvY_O48DDgXvG7SjJWbhEWjp-A8);
     background-repeat: no-repeat;
     background-size: cover;
     width: 55%;
@@ -34,6 +36,7 @@ form {
     width: 45%;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 50px;
+    
 }
 
 .title {
@@ -138,6 +141,7 @@ form div i {
 button a {
     text-decoration: none;
 }
+
 button {
     margin-top: 15px;
     width: 100%;

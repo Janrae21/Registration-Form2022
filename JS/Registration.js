@@ -14,7 +14,7 @@ let username = id("firstname"),
     successIcon = classes("success-icon"),
     failureIcon = classes("failure-icon");
 
-// Adding the submit event Listener
+
 
 form.addEventListener("submit", (e) => {
     // e.preventDefault();
@@ -27,7 +27,7 @@ form.addEventListener("submit", (e) => {
 });
 
 
-// engine function which will do all the works
+
 
 let engine = (id, serial, message) => {
     if (id.value.trim() === "") {
